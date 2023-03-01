@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import Header from './header';
+import AboutMe from './aboutme';
+import Footer from './footer';
+import Resume from './resume';
 // import all the files? this will be the page generated?
 
 export default function Navigation(props){
     const [input, setInout] = useState('');
-    let [section, setSection] = useState('test');
+    let [section, setSection] = useState(AboutMe);
 
-    const sections = ['About Me', 'Portfolio', 'Contact', 'Resume']
+    const sections = [AboutMe, 'Portfolio', 'Contact', Resume]
 
     return(
         <div>
@@ -21,7 +23,7 @@ export default function Navigation(props){
 
             </header>
             <p>{section}</p>
-            <footer></footer>
+            <Footer />
         </div>
     );
 

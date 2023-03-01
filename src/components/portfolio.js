@@ -1,0 +1,1 @@
+// my project data can be an object that i pass in as props and iterate over with the component
