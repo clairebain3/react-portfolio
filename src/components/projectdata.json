@@ -1,0 +1,33 @@
+[
+    {"name": "BurnOutBuddy",
+    "application": "https://burnout-buddy.herokuapp.com/",
+    "repo": "https://github.com/gjferrari/burnout-buddy"
+
+    },
+    {"name": "Tech Blog",
+    "application": "https://blooming-scrubland-20223.herokuapp.com/",
+    "repo": "https://github.com/clairebain3/tech-blog"
+
+    },
+    {"name": "Weather Dashboard",
+    "application": "https://clairebain3.github.io/weather-dashboard/",
+    "repo": "https://github.com/clairebain3/weather-dashboard"
+
+    },
+    {"name": "Funny Movie Gif",
+    "application": "https://maksimrazuvaev.github.io/funny_movie_gif/",
+    "repo": "https://github.com/MaksimRazuvaev/funny_movie_gif"
+
+    },
+    {"name": "PWA JATE",
+    "application": "https://github.com/clairebain3/pwa-text-editor",
+    "repo": "https://github.com/clairebain3/pwa-text-editor"
+
+    },
+    {"name": "Workday Scheduler",
+    "application": "https://clairebain3.github.io/work-day-scheduler/",
+    "repo": "https://github.com/clairebain3/work-day-scheduler"
+
+    }
+
+]
