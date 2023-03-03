@@ -3,13 +3,18 @@ import AboutMe from './aboutme';
 import Footer from './footer';
 import Resume from './resume';
 import Portfolio from './portfolio';
+import Contact from './contact';
 // import all the files? this will be the page generated?
 
 export default function Navigation(){
-    const [input, setInout] = useState('');
     let [section, setSection] = useState(AboutMe);
+    let [isActive, setActive] = useState(false);
 
-    const sections = [AboutMe, Portfolio, 'Contact', Resume]
+    const toggleClass = (sec) => {
+      setActive(!isActive);
+      setSection(sections[sec])
+    }
+    const sections = [AboutMe, Portfolio, Contact, Resume]
 
     return(
         <div>
@@ -22,10 +27,11 @@ export default function Navigation(){
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a onClick={() => setSection(sections[0])} class="nav-link active" aria-current="page" href="#">About Me</a>
-        <a onClick={() => setSection(sections[1])}class="nav-link" href="#">Portfolio</a>
-        <a onClick={() => setSection(sections[2])}class="nav-link" href="#">Contact</a>
-        <a onClick={() => setSection(sections[3])}class="nav-link" href ="#">Resume</a>
+        {/* act 24 for consitional rendering */}
+        <a onClick={() => {toggleClass(0)}} className={isActive ? 'nav-link active': 'nav-link'} aria-current="page" href="#">About Me</a> 
+        <a onClick={() => {toggleClass(1)}} className={isActive ? 'nav-link active': 'nav-link'} href="#">Portfolio</a>
+        <a onClick={() => {toggleClass(2)}} className={isActive ? 'nav-link active': 'nav-link'} href="#">Contact</a>
+        <a onClick={() => {toggleClass(3)}} className={isActive ? 'nav-link active': 'nav-link'} href ="#">Resume</a>
       </div>
     </div>
   </div>
@@ -33,7 +39,7 @@ export default function Navigation(){
      
 
             </header>
-            <p>{section}</p>
+            <p class = "main">{section}</p>
             <Footer />
         </div>
     );

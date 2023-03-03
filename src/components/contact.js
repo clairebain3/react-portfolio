@@ -1,69 +1,33 @@
 import React, { useState } from 'react';
 
-function ContactForm(props) {
-  const [input, setInput] = useState('');
+function Contact(props) {
 
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-
-
-    props.onSubmit({
-      id: Math.random(Math.floor() * 1000),
-      text: input,
-    });
-
-    setInput('');
-  };
-
-  const handleChange = (e) => {
-    setInput(e.target.value);
-  };
 
   // First we check to see if "edit" prop exists. If not, we render the normal form
   // If the prop "edit" exists, we know to render the update form instead
-  return !props.edit ? (
+  return (
     <div>
-      <form className="bucket-form" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Add to your bucket list"
-          value={input}
-          name="text"
-          className="bucket-input"
-          onChange={handleChange}
-        ></input>
- 
-        <button className="bucket-button">Add bucket list item</button>
-      </form>
-    </div>
-  ) : (
-    <div>
-      <h3>Update entry: {props.edit.value}</h3>
-      <form className="bucket-form" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder={props.edit.value}
-          value={input}
-          name="text"
-          className="bucket-input"
-          onChange={handleChange}
-        ></input>
-        <div className="dropdown">
-          <button className={`dropbtn ${eagerness}`}>
-            {eagerness || 'Priority'}
-          </button>
-          <div className="dropdown-content">
-            <p onClick={() => setEagerness(eagernessLevel[0])}>Must do</p>
-            <p onClick={() => setEagerness(eagernessLevel[1])}>Want to do</p>
-            <p onClick={() => setEagerness(eagernessLevel[2])}>Take it or leave it</p>
-          </div>
-        </div>
-        <button className="bucket-button">Update</button>
-      </form>
-    </div>
-  );
-}
+      <form>
+      <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Name</label>
+    <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp"></input>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputMessage" class="form-label">Message</label>
+    <input type="text" class="form-control" id="exampleInputmess"></input>
+  </div>
+  {/* <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div> */}
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+  )};
 
-export default ContactForm;
+export default Contact;
