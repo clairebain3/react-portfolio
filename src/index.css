@@ -12,7 +12,7 @@ code {
     monospace;
 }
 .main{
-  margin-left: 30%;
+  margin-left: 25%;
   margin-right: 10%;
 }
 .foot{
@@ -23,4 +23,33 @@ code {
   font-size: small;
   justify-content: center;
   margin-top: 5%;
+}
+.profpic{
+  display:grid;
+  top: 100px;
+  margin: 10px;
+
+}
+.projcontainer{
+  display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+
+}
+.portfoliopic{
+  height: 100px;
+  width: 200px;
+  margin: 50px;
+}
+.picContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.picContent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3px;
+  justify-content: center;
 }

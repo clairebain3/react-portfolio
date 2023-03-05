@@ -1,32 +1,37 @@
 [
     {"name": "BurnOutBuddy",
     "application": "https://burnout-buddy.herokuapp.com/",
-    "repo": "https://github.com/gjferrari/burnout-buddy"
-
+    "repo": "https://github.com/gjferrari/burnout-buddy",
+    "pic": "0"
     },
     {"name": "Tech Blog",
     "application": "https://blooming-scrubland-20223.herokuapp.com/",
-    "repo": "https://github.com/clairebain3/tech-blog"
+    "repo": "https://github.com/clairebain3/tech-blog",
+    "pic": "1"
 
     },
     {"name": "Weather Dashboard",
     "application": "https://clairebain3.github.io/weather-dashboard/",
-    "repo": "https://github.com/clairebain3/weather-dashboard"
+    "repo": "https://github.com/clairebain3/weather-dashboard",
+    "pic": "2"
 
     },
     {"name": "Funny Movie Gif",
     "application": "https://maksimrazuvaev.github.io/funny_movie_gif/",
-    "repo": "https://github.com/MaksimRazuvaev/funny_movie_gif"
+    "repo": "https://github.com/MaksimRazuvaev/funny_movie_gif",
+    "pic": "3"
 
     },
     {"name": "PWA JATE",
     "application": "https://github.com/clairebain3/pwa-text-editor",
-    "repo": "https://github.com/clairebain3/pwa-text-editor"
+    "repo": "https://github.com/clairebain3/pwa-text-editor",
+    "pic": "4"
 
     },
     {"name": "Workday Scheduler",
     "application": "https://clairebain3.github.io/work-day-scheduler/",
-    "repo": "https://github.com/clairebain3/work-day-scheduler"
+    "repo": "https://github.com/clairebain3/work-day-scheduler",
+    "pic": "5"
 
     }
 
