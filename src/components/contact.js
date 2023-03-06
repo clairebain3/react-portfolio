@@ -42,7 +42,10 @@ function Contact() {
       if (!validateEmail(email)) {
         setErrorMessage('Email is invalid');
         return;
+      } else{
+        setErrorMessage('')
       }
+      
       
     } else if (inputType === 'Name') {
       setName(inputValue);
@@ -51,12 +54,16 @@ function Contact() {
         // We want to exit out of this code block if something is wrong so that the user can correct it
         return;
         // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+      } else{
+        setErrorMessage('')
       }
     } else if (inputType ==='Message') {
       setMessage(inputValue);
       if (!checkMessage(message)) {
         setErrorMessage('Please enter a message');
         return;
+      } else{
+        setErrorMessage('')
       }
     }
     else{
@@ -71,7 +78,7 @@ function Contact() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !Name) {
-      setErrorMessage('Email orname is invalid');
+      setErrorMessage('Email or name is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
@@ -101,16 +108,16 @@ function Contact() {
       <form>
       <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Name</label>
-    <input  placeholder="Name" name="Name" onBlur={handleInputBlur} onChange={handleInputChange} type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp"></input>
+    <input value={Name} name="Name" onBlur={handleInputBlur} onChange={handleInputChange} type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp"></input>
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input name = "email" onBlur={handleInputBlur} onChange={handleInputChange} type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+    <input value={email} name = "email" onBlur={handleInputBlur} onChange={handleInputChange} type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
     <div id="emailHelp" class="form-text"></div>
   </div>
   <div class="mb-3">
     <label for="exampleInputMessage" class="form-label">Message</label>
-    <input name = "Message" onBlur={handleInputBlur} onChange={handleInputChange} type="text" class="form-control" id="exampleInputmess"></input>
+    <input value={message} name = "Message" onBlur={handleInputBlur} onChange={handleInputChange} type="text" class="form-control" id="exampleInputmess"></input>
   </div>
   {/* <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
