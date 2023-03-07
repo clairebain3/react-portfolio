@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.db40c6fc.css",
+    "main.js": "/react-portfolio/static/js/main.21b29cf2.js",
+    "static/js/787.628d1388.chunk.js": "/react-portfolio/static/js/787.628d1388.chunk.js",
+    "static/media/RecentPic.JPG": "/react-portfolio/static/media/RecentPic.19d6613b868351c4bc1a.JPG",
+    "static/media/CBResume.pdf": "/react-portfolio/static/media/CBResume.7e141c70843bf7575a6e.pdf",
+    "static/media/Weather-pic.png": "/react-portfolio/static/media/Weather-pic.c173dc6725906fca571a.png",
+    "static/media/Schedule-pic.png": "/react-portfolio/static/media/Schedule-pic.f1ea6f016c1e395e5053.png",
+    "static/media/techblogpic.png": "/react-portfolio/static/media/techblogpic.b9a995db8210852e3c4d.png",
+    "static/media/gif-movie-site.png": "/react-portfolio/static/media/gif-movie-site.9da103ba9ff19bd0e2be.png",
+    "static/media/BOBCongratsScreenshot.jpeg": "/react-portfolio/static/media/BOBCongratsScreenshot.876ee5c5c4350dda301f.jpeg",
+    "static/media/pwatexteditorpic.png": "/react-portfolio/static/media/pwatexteditorpic.876c8dd77a41f2d95530.png",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.db40c6fc.css.map": "/react-portfolio/static/css/main.db40c6fc.css.map",
+    "main.21b29cf2.js.map": "/react-portfolio/static/js/main.21b29cf2.js.map",
+    "787.628d1388.chunk.js.map": "/react-portfolio/static/js/787.628d1388.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db40c6fc.css",
+    "static/js/main.21b29cf2.js"
+  ]
+}
