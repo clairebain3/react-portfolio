@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Header(){
     return(<div>
-        <nav>
+        <nav >
         <p>Claire Bain</p>
         <p>About Me</p>
         <p>Portfolio</p>

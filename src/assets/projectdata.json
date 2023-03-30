@@ -28,11 +28,16 @@
     "pic": "4"
 
     },
-    {"name": "Workday Scheduler",
-    "application": "https://clairebain3.github.io/work-day-scheduler/",
-    "repo": "https://github.com/clairebain3/work-day-scheduler",
+    {"name": "Book Search Engine",
+    "application": "https://floating-brook-93855.herokuapp.com/",
+    "repo": "https://github.com/clairebain3/book-search-engine",
     "pic": "5"
 
+    },
+    {"name": "Book Buddy",
+    "application": "https://bookbuddy.herokuapp.com/",
+    "repo": "https://github.com/CascadeColin/book-buddy/",
+    "pic": "6"
     }
 
 ]

@@ -38,7 +38,7 @@ export default function Navigation(){
     return(
         <div>
             <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg  header">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Claire Bain</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

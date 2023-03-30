@@ -23,6 +23,10 @@ code {
   font-size: small;
   justify-content: center;
   margin-top: 5%;
+
+}
+.link{
+  margin: 3px;
 }
 .profpic{
   display:grid;
@@ -52,4 +56,17 @@ code {
   align-items: center;
   margin: 3px;
   justify-content: center;
+}
+.picTitle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3px;
+  justify-content: center;
+  color: rgb(94, 18, 127);
+  font-weight: bold;
+}
+.header{
+  background-color: rgba(102, 191, 161, 0.373);
+
 }

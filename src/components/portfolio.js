@@ -6,11 +6,12 @@ import pic1 from './/../assets/techblogpic.png';
 import pic2 from './/../assets/Weather-pic.png';
 import pic3 from './/../assets/gif-movie-site.png';
 import pic4 from './/../assets/pwatexteditorpic.png';
-import pic5 from './/../assets/Schedule-pic.png';
+import pic5 from './/../assets/Book-Search.png'
+import pic6 from './/../assets/bookbuddy.png';
 
 
 
-const url = [pic, pic1, pic2, pic3, pic4, pic5]
+const url = [pic, pic1, pic2, pic3, pic4, pic5, pic6]
 
 const myvar = Projects[0].name
 const props = Projects
@@ -22,7 +23,7 @@ function displayProjects(item){
     return(<div class = "picContainer">
     <img class="portfoliopic" src = {url[item.pic]}/>
     <div  >
-    <p class = "picContent">{item.name}</p>
+    <p class = "picTitle">{item.name}</p>
     <a class = "picContent" href = {item.application}>app</a>
     <a class = "picContent" href = {item.repo}>github</a>
     </div>
