@@ -49,6 +49,8 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+
 }
 .picContent{
   display: flex;
@@ -69,4 +71,12 @@ code {
 .header{
   background-color: rgba(102, 191, 161, 0.373);
 
+}
+
+.desc{
+  display: none;
+}
+
+.container.show .desc {
+  display: block;
 }

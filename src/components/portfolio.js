@@ -9,23 +9,29 @@ import pic4 from './/../assets/pwatexteditorpic.png';
 import pic5 from './/../assets/Book-Search.png'
 import pic6 from './/../assets/bookbuddy.png';
 
+function showDesc(e) {
+    console.log(e.target.class)
+
+  }
 
 
 const url = [pic, pic1, pic2, pic3, pic4, pic5, pic6]
 
-const myvar = Projects[0].name
-const props = Projects
-const test = Projects.map(displayProjects)
-console.log(test)
+// const myvar = Projects[0].name
+// const props = Projects
+// const test = Projects.map(displayProjects)
+// console.log(test)
 function displayProjects(item){
     
 
-    return(<div class = "picContainer">
+    return(<div class = "picContainer" onMouseEnter={this.handleshowDesc}>
     <img class="portfoliopic" src = {url[item.pic]}/>
     <div  >
     <p class = "picTitle">{item.name}</p>
-    <a class = "picContent" href = {item.application}>app</a>
-    <a class = "picContent" href = {item.repo}>github</a>
+    <a class = "picContent" target="_blank" href = {item.application}>View Live App</a>
+    <a class = "picContent" target="_blank" href = {item.repo}>GitHub Repo</a>
+    <p class = "desc">{item.desc}</p>
+   
     </div>
     </div>
     )
