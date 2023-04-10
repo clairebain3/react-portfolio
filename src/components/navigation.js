@@ -4,6 +4,7 @@ import Footer from './footer';
 import Resume from './resume';
 import Portfolio from './portfolio';
 import Contact from './contact';
+import triangle from './/../assets/triangle.png';
 // import all the files? this will be the page generated?
 
 export default function Navigation(){
@@ -86,7 +87,14 @@ export default function Navigation(){
      
 
             </header>
-            <p class = "main">{renderPage()}</p>
+            <div class = "mainContainer" >
+              <div class = "triangle">
+            <img src={triangle} alt = "large purple triangle" width="300" height="500"/>
+            </div>
+            <div class = "main">
+            <p>{renderPage()}</p>
+            </div>
+            </div>
             <Footer />
         </div>
     );

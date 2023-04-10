@@ -12,8 +12,19 @@ code {
     monospace;
 }
 .main{
-  margin-left: 25%;
-  margin-right: 10%;
+  /* margin-left: 25%; */
+  /* margin-right: 10%; */
+  display: inline-block;
+  margin-top: 5%;
+}
+.triangle{
+  display: inline-block;
+}
+
+.mainContainer{
+  display: flex;
+  color: rgb(60, 49, 70);
+
 }
 .foot{
   display: flex;
@@ -74,7 +85,7 @@ code {
 }
 
 .desc{
-  display: none;
+  display: block;
 }
 
 .container.show .desc {

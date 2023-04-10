@@ -9,8 +9,8 @@ import pic4 from './/../assets/pwatexteditorpic.png';
 import pic5 from './/../assets/Book-Search.png'
 import pic6 from './/../assets/bookbuddy.png';
 
-function showDesc(e) {
-    console.log(e.target.class)
+function handleshowDesc(e) {
+    console.log(e.target.item.desc)
 
   }
 
@@ -24,8 +24,8 @@ const url = [pic, pic1, pic2, pic3, pic4, pic5, pic6]
 function displayProjects(item){
     
 
-    return(<div class = "picContainer" onMouseEnter={this.handleshowDesc}>
-    <img class="portfoliopic" src = {url[item.pic]}/>
+    return(<div class = "picContainer" onMouseEnter={handleshowDesc}>
+    <img class="portfoliopic" src = {url[item.pic]} style={{cursor:'pointer'}}/>
     <div  >
     <p class = "picTitle">{item.name}</p>
     <a class = "picContent" target="_blank" href = {item.application}>View Live App</a>
