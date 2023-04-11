@@ -88,6 +88,12 @@ code {
   display: block;
 }
 
-.container.show .desc {
-  display: block;
+.picContainer:hover {
+  box-shadow: 5px 5px 5px 5px rgb(94, 18, 127);
+}
+
+.aboutme{
+  margin: 15px;
+  margin-bottom: 30px;
+
 }

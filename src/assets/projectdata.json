@@ -3,42 +3,48 @@
     "application": "https://burnout-buddy.herokuapp.com/",
     "repo": "https://github.com/gjferrari/burnout-buddy",
     "pic": "0",
-    "desc": ""
+    "desc": "Collaborative full stack web application that utilizes an MVC paradigm to generate random wellness activities, allows users to record and store their feelings, and provides login/signup capabilities"
     },
     {"name": "Tech Blog",
     "application": "https://blooming-scrubland-20223.herokuapp.com/",
     "repo": "https://github.com/clairebain3/tech-blog",
-    "pic": "1"
+    "pic": "1",
+    "desc": "Interactive blog website where users login/signup, view all posts and comments, create, edit, and delete their own posts, and create, edit, and delete comments on all posts. The application offers an aesthetically-pleasing and informative UI."
 
     },
     {"name": "Weather Dashboard",
     "application": "https://clairebain3.github.io/weather-dashboard/",
     "repo": "https://github.com/clairebain3/weather-dashboard",
-    "pic": "2"
+    "pic": "2",
+    "desc": "Interactive web application that takes user input to select a city, then displays information about the weather forecast for that city. The weather data is generated using a third party API."
 
     },
     {"name": "Funny Movie Gif",
     "application": "https://maksimrazuvaev.github.io/funny_movie_gif/",
     "repo": "https://github.com/MaksimRazuvaev/funny_movie_gif",
-    "pic": "3"
+    "pic": "3",
+    "desc": "Collaborative group project that takes in user input for a movie or tv show, then displays information about that media along with a relevant meme. The application utilizes third party APIs."
 
     },
     {"name": "PWA JATE",
     "application": "https://github.com/clairebain3/pwa-text-editor",
     "repo": "https://github.com/clairebain3/pwa-text-editor",
-    "pic": "4"
+    "pic": "4",
+    "desc": "A Progressive Web Application that stores user's notes. I took starter code for the application, and transformed it into a workable PWA."
 
     },
     {"name": "Book Search Engine",
     "application": "https://floating-brook-93855.herokuapp.com/",
     "repo": "https://github.com/clairebain3/book-search-engine",
-    "pic": "5"
+    "pic": "5",
+    "desc": "Full stack web application that allows users to search for a book via Google Books API, save it to their profile, and delete the saved book. It also has login/signup capabilities. I used starter code to convert this app from a RESTful API to a graphQL API built with Apollo server, without losing any of its capabilities. The app has a REACT front end."
 
     },
     {"name": "Book Buddy",
     "application": "https://bookbuddy.herokuapp.com/",
     "repo": "https://github.com/CascadeColin/book-buddy/",
-    "pic": "6"
+    "pic": "6",
+    "desc": "Collaborative MERN Stack web application that allows users to search for books via Open Library API and store this book data on an interactive “shelf” categorized by the book’s status. The application features login/signup capabilities."
     }
 
 ]
