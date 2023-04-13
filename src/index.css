@@ -24,6 +24,8 @@ code {
 .mainContainer{
   display: flex;
   color: rgb(60, 49, 70);
+  flex-direction: row;
+  /* justify-content:space-around */
 
 }
 .foot{
@@ -96,4 +98,10 @@ code {
   margin: 15px;
   margin-bottom: 30px;
 
+}
+
+.contactForm{
+  margin: 30px;
+  width: 100%;
+  padding-right: 60px;
 }
