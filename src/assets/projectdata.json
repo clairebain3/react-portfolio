@@ -6,7 +6,7 @@
     "desc": "Collaborative full stack web application that utilizes an MVC paradigm to generate random wellness activities, allows users to record and store their feelings, and provides login/signup capabilities"
     },
     {"name": "Tech Blog",
-    "application": "https://blooming-scrubland-20223.herokuapp.com/",
+    "application": "https://tech-blog.claire.hesio.de/",
     "repo": "https://github.com/clairebain3/tech-blog",
     "pic": "1",
     "desc": "Interactive blog website where users login/signup, view all posts and comments, create, edit, and delete their own posts, and create, edit, and delete comments on all posts. The application offers an aesthetically-pleasing and informative UI."
